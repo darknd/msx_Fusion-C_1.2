@@ -16,3 +16,5 @@ sudo apt install openmsx
 ```
 ./run.sh file.c
 ```
+
+Please take a look to the brilliant website of [MoltSXalats](https://moltsxalats.wixsite.com/fusionc/)
