@@ -17,7 +17,7 @@ complete="${name}.${ext}"
 
 sdcc --code-loc 0x106 --data-loc 0x0 --disable-warning 196 -mz80 --no-std-crt0 --opt-code-size fusion.lib -L ./fusion-c/lib/ ./fusion-c/include/crt0_msxdos.rel $complete
 
-hex2bin -e com $name.ihx
+./hex2bin -e com $name.ihx
 
 mv $name.com dsk/
 
